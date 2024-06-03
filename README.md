@@ -8,7 +8,7 @@
   <li>Technologies used: VSCode, Github</li>
 </ul>
 
-<h2>Objectives</h2>
+<h2>📝 Objectives</h2>
 <hr>
 <ul>
   <li>Develop an understanding of how to integrate public APIs into web projects.</li>
