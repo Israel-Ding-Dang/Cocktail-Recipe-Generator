@@ -17,7 +17,7 @@ app.get("/recipe", async (req, res) => {
 
         res.render("index.ejs", { cocktail: result });
     } catch (error) {
-        console.error('Error fetching data:', error.message);        
+        console.log('Error fetching data:', error.message);        
     }    
 });
 
