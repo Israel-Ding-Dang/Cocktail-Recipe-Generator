@@ -16,12 +16,14 @@
 .drink-name {
     color: white;
 }
+
 .cocktail-image {
     height: 100%;
     width: 100%;  
     border-radius: 21px;  
     object-fit: cover;
 }
+
 .cocktail-image-container {
     width: 100%; 
     height: 300px;    
@@ -31,11 +33,13 @@
     overflow: hidden; 
     position: relative;
 }
+
 .cocktail-details {
     color: white;
     text-align: left;
     padding: 20px 10px 20px 10px;
 }
+
 .space-lft {
     padding-left: 20px;
     padding-top: 10px;
@@ -54,10 +58,6 @@
       flex-basis: auto; /* Adjust the flex basis as needed */
     }
   }
-  
-
-
-
 
 
 
