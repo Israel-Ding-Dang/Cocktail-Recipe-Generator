@@ -17,6 +17,7 @@ app.get("/recipe", async (req, res) => {
         const result = response.data.drinks[0];        
 
         res.render("index.ejs", { cocktail: result });
+        
     } catch (error) {
         console.log('Error fetching data:', error.message);        
     }    
