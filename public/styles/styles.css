@@ -59,8 +59,8 @@
     } 
     .text-bg-dark,
     .bg-body-tertiary {
-      width: 100%; /* Set max-width to 100% for smaller screens */
-      flex-basis: auto; /* Adjust the flex basis as needed */
+      width: 100%; 
+      flex-basis: auto; 
     }
   }
 
