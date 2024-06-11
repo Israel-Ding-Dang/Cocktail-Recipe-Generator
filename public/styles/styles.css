@@ -32,18 +32,15 @@
     overflow: hidden; 
     position: relative;
 }
-
 .cocktail-details {
     color: white;
     text-align: left;
     padding: 20px 10px 20px 10px;
 }
-
 .space-lft {
     padding-left: 20px;
     padding-top: 10px;
 }
-
 @media (max-width: 767px) {
     .center {        
         flex-direction: column;    
