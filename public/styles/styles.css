@@ -5,29 +5,24 @@
 .hero-height {
     height: 100vh;
 } 
-
 .center {    
     align-items: stretch;
     align-content: center;
     align-self: center;
     justify-content: center;
 }
-
 .none {
     display: none;
 }
-
 .drink-name {
     color: white;
 }
-
 .cocktail-image {
     height: 100%;
     width: 100%;  
     border-radius: 21px;  
     object-fit: cover;
 }
-
 .cocktail-image-container {
     width: 100%; 
     height: 300px;    
