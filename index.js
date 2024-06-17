@@ -10,15 +10,12 @@ app.get("/", (req, res) => {
     res.render("index.ejs");
 });
 
-app.get("/recipe", async (req, res) => {
-    
+app.get("/recipe", async (req, res) => {    
     try {
         const response = await axios.get("https://www.thecocktaildb.com/api/json/v1/1/random.php");
-        const result = response.data.drinks[0];        
+        const result = response.data.drinks[0];  
 
-        res.render("index.ejs", { 
-            cocktail: result 
-        });
+        res.render("index.ejs", { cocktail: result });
 
     } catch (error) {
         console.log('Error fetching data:', error.message);        
